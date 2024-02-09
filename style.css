@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1F1F1F;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 10px;
+    background-color:#1F1F1F ;
+}
+a{
+    text-decoration: none;
+}
+.brand{
+    padding: 10px;
+}
+.menu a{
+    color: rgba(255, 255, 255, 0.674);
+}
+.navbar-brand a{
+    color: rgba(255, 255, 255, 0.674);
+}
+.navbar-brand span{
+    color:#002F77
+}
+.menu{
+    font-size: 20px;
+}
+.projects{
+    margin: 0 20px;
+}
+.contact{
+    margin-right: 10px ;
+}
+.intro{
+    display: flex;
+    font-size: 32px;
+    background-color: #1F1F1F;
+    color: white;
+
+}
+.introduction{
+    margin-left: 50px;
+}
+.heading{
+    border-bottom: white 1px solid;
+    padding-bottom: 15px;
+    margin-top: 150px;
+    margin-left: 90px;
+
+}
+.intro-text{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.my-photo{
+    margin-left: 80px;
+    
+}
+.my-photo img{
+    width: 350px;
+    
+}
+.bodi{
+    margin-top: 70px;
+    
+}
+
+.bodi h3{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 8px;
+    
+}
+.cards-title{
+    font-size: 22px;
+    color: white;
+}
+.card-title{
+    font-size: 20px;
+    
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 20px;
+    gap: 20px;
+}
+.card-1{
+    grid-column: 2/3;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card-2{
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card-3{
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.card-3 img{
+    width:250px;
+    height: 250px;
+}
+.card-1 p{
+    padding-left: 10px;
+}
+.card-1 h5{
+    padding-left: 10px;
+}
+.card-2 p{
+    padding-left: 10px;
+}
+.card-2 h5{
+    padding-left: 10px;
+}
+.card-3 p{
+    padding-left: 10px;
+}
+.card-3 h5{
+    padding-left: 10px;
+}
+.card img{
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.call{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
+.name input{
+    padding-top:15px ;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+}
+.Email{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
+.Email input{
+    padding-top:15px ;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+}
+.password{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
+.password input{
+    padding-top:15px ;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+}
+.btn{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    background-color: #002F77;
+}
+.btn a{
+    color: white;
+}
+.img-contact img{
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
